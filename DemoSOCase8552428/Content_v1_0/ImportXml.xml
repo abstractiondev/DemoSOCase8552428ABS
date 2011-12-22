@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneratedSolution Name="name of Solution" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ImportXml.xsd">
+	<GeneratedProject ID="RepoProject" Name="name of Project" MajorVersion="1" MinorVersion="0" CopyRight="GeneratedProject company" Language="C#" OutExtension="cs">
+		<Compiler path="../path/compilername" Build="silent" ExternalBuildTool="NAnt"/>
+		<GeneratedRepository Name="name of Repository Class" Description="This is generated Repository class would be used for overall-application" TemplateRefence="../path/repository.tt">
+			<Operation Name="Operation1" Description="This is operation1 of Repository class">
+				<operationID>1</operationID>
+			</Operation>
+			<Operation Name="Operation2" Description="This is operation2 of Repository class">
+				<operationID>2</operationID>
+			</Operation>
+		</GeneratedRepository>
+	</GeneratedProject>
+	<GeneratedProject ID="BusinessProject" Name="name of Project" MajorVersion="1" MinorVersion="0" CopyRight="GeneratedProject company">
+		<GeneratedBusiness Name="name of Business Class" Description="This is generated Business class would be used for overall-application" TemplateRefence="../path/business.tt">
+			<Operation Name="Operation1" Description="This is operation1 of Business class">
+				<operationID>1</operationID>
+			</Operation>
+			<Operation Name="Operation2" Description="This is operation2 of Business class">
+				<operationID>2</operationID>
+			</Operation>
+		</GeneratedBusiness>
+	</GeneratedProject>
+	<GeneratedProject ID="UIProject" Name="name of Project" MajorVersion="1" MinorVersion="0" CopyRight="GeneratedProject company">
+		<GeneratedUI Name="name of UI Class" Description="This is generated UI class would be used for overall-application" TemplateRefence="../path/UI.tt">
+			<Operation Name="Operation1" Description="This is operation1 of UI class">
+				<operationID>1</operationID>
+			</Operation>
+			<Operation Name="Operation2" Description="This is operation2 of UI class">
+				<operationID>2</operationID>
+			</Operation>
+		</GeneratedUI>
+	</GeneratedProject>
+</GeneratedSolution>
